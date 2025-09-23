@@ -36,15 +36,15 @@ The client can request to change modes or display characteristics.
 
 #### Modes
 The following modes execute based on request from the client:
-1. FUNC_HEART : displays scrolling red hearts on a purple background.
-2. FUNC_RAINBOW : displays a scrolling continuous rainbow
-3. FUNC_SCROLLING_TEXT : displays scrolling text in the selected color provided by client.
-4. FUNC_POP_TEXT : splits the text by spaces and if possible displays each word in sequence in selected color.
-5. FUNC_DARK : display nothing, can be used to conserve battery since LED illumination takes the most power
+1. **FUNC_HEART** : displays scrolling red hearts on a purple background.
+2. **FUNC_RAINBOW** : displays a scrolling continuous rainbow
+3. **FUNC_SCROLLING_TEXT** : displays scrolling text in the selected color provided by client.
+4. **FUNC_POP_TEXT** : splits the text by spaces and if possible displays each word in sequence in selected color.
+5. **FUNC_DARK** : display nothing, can be used to conserve battery since LED illumination takes the most power
 
 #### Display Characteristics
-1. FUNC_COLOR_CHANNGE: For text display, the client can change the display color through a message with RGB values
-2. FUNC_SET_BRIGHTNESS: the client can change the brightness through a message with intensity value, can be used for different conditions or to save battery 
-3. FUNC_SET_PULSE: the client can change the pulse speed from no pulse to up to 8 pulses per second (which can be a bit nauseating) for a different effect.
+1. **FUNC_COLOR_CHANNGE**: For text display, the client can change the display color through a message with RGB values
+2. **FUNC_SET_BRIGHTNESS**: the client can change the brightness through a message with intensity value, can be used for different conditions or to save battery 
+3. **FUNC_SET_PULSE**: the client can change the pulse speed from no pulse to up to 8 pulses per second (which can be a bit nauseating) for a different effect.
 
    
