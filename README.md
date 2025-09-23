@@ -25,7 +25,9 @@ setup() is called when the board is initialized, we do two steps:
 1. setupBLE() - configure BLE
    1. create a device "FloraDress" (this is an old name when we were building it with a Flora)
    2. create a service with a registered callback for events we receive from a client
-2. setupMatrix() - configure the visor panel with the dimensions and configuration needed
+2. setupMatrix() - configure the visor panel with the dimensions, pin connections, and other configuration needed
+   1. Matrix uses DATAPIN = 5 and CLOCKPIN = 6
+   2. If you've connected to different pins you'll need to change these values
 
 We also set the FUNC_HEARTS as the default mode.
 
