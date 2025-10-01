@@ -1,6 +1,8 @@
 # Magic Visor Controller
 Arduino controller built for Adafruit Feather BLE. 
 
+This contoller works with the [Magic Visor Android App](https://github.com/keithfry/visor-android).
+
 ## Setup
 ### Install Adafruit boards
 _You only need to do this once for the Arduino IDE_
